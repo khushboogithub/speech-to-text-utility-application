@@ -1,0 +1,42 @@
+Language model created by QuickLM on Wed Feb  7 12:14:45 EST 2018
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 1 sentences and 6 words
+
+\data\
+ngram 1=6
+ngram 2=7
+ngram 3=6
+
+\1-grams:
+-1.2041 </s> -0.3010
+-1.2041 <s> -0.2730
+-1.2041 ALL -0.2109
+-1.2041 CLASS -0.2109
+-1.2041 NAME -0.2109
+-0.7270 STUDENT -0.2109
+
+\2-grams:
+-0.3010 <s> ALL 0.0000
+-0.3010 ALL STUDENT -0.2218
+-0.3010 CLASS STUDENT -0.2218
+-0.3010 NAME STUDENT -0.2218
+-0.7782 STUDENT </s> -0.3010
+-0.7782 STUDENT CLASS 0.0000
+-0.7782 STUDENT NAME 0.0000
+
+\3-grams:
+-0.3010 <s> ALL STUDENT
+-0.3010 ALL STUDENT NAME
+-0.3010 CLASS STUDENT </s>
+-0.3010 NAME STUDENT CLASS
+-0.3010 STUDENT CLASS STUDENT
+-0.3010 STUDENT NAME STUDENT
+
+\end\

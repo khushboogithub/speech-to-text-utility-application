@@ -1,0 +1,74 @@
+Language model created by QuickLM on Thu Mar 29 13:17:11 EDT 2018
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 1 sentences and 18 words
+
+\data\
+ngram 1=18
+ngram 2=17
+ngram 3=16
+
+\1-grams:
+-1.5563 </s> -0.3010
+-1.5563 <s> -0.2888
+-1.5563 CLEAR -0.2888
+-1.5563 DIVIDE -0.2888
+-1.5563 EIGHT -0.2888
+-1.5563 EQUAL -0.2888
+-1.5563 FIVE -0.2888
+-1.5563 FOUR -0.2888
+-1.5563 GIVES -0.2888
+-1.5563 MINUS -0.2888
+-1.5563 MULTIPLY -0.2888
+-1.5563 NINE -0.2888
+-1.5563 ONE -0.2888
+-1.5563 PLUS -0.2888
+-1.5563 SEVEN -0.2888
+-1.5563 SIX -0.2888
+-1.5563 THREE -0.2888
+-1.5563 TWO -0.2888
+
+\2-grams:
+-0.3010 <s> ONE 0.0000
+-0.3010 CLEAR </s> -0.3010
+-0.3010 DIVIDE EQUAL 0.0000
+-0.3010 EIGHT NINE 0.0000
+-0.3010 EQUAL GIVES 0.0000
+-0.3010 FIVE SIX 0.0000
+-0.3010 FOUR FIVE 0.0000
+-0.3010 GIVES CLEAR 0.0000
+-0.3010 MINUS MULTIPLY 0.0000
+-0.3010 MULTIPLY DIVIDE 0.0000
+-0.3010 NINE PLUS 0.0000
+-0.3010 ONE TWO 0.0000
+-0.3010 PLUS MINUS 0.0000
+-0.3010 SEVEN EIGHT 0.0000
+-0.3010 SIX SEVEN 0.0000
+-0.3010 THREE FOUR 0.0000
+-0.3010 TWO THREE 0.0000
+
+\3-grams:
+-0.3010 <s> ONE TWO
+-0.3010 DIVIDE EQUAL GIVES
+-0.3010 EIGHT NINE PLUS
+-0.3010 EQUAL GIVES CLEAR
+-0.3010 FIVE SIX SEVEN
+-0.3010 FOUR FIVE SIX
+-0.3010 GIVES CLEAR </s>
+-0.3010 MINUS MULTIPLY DIVIDE
+-0.3010 MULTIPLY DIVIDE EQUAL
+-0.3010 NINE PLUS MINUS
+-0.3010 ONE TWO THREE
+-0.3010 PLUS MINUS MULTIPLY
+-0.3010 SEVEN EIGHT NINE
+-0.3010 SIX SEVEN EIGHT
+-0.3010 THREE FOUR FIVE
+-0.3010 TWO THREE FOUR
+
+\end\
